@@ -44,6 +44,25 @@ public class Practice3 {
 			
 //			System.out.println("10진수 2를 2진수로 변환: "+ Integer.toBinaryString(2));
 //			System.out.println("integer 정수 자료형의 최대값: "+Integer.MAX_VALUE);
+
+		 // System.out.println(3<<2); // 왼쪽으로 '2'칸 비트연산 11 -> 11'00'
+//			System.out.println("3의 이진수: "+Integer.toBinaryString(3));
+//			System.out.println("12의 이진수: "+Integer.toBinaryString(12));
+//			
+//			System.out.println(8>>2); // 오른쪽으로 '2'칸 비트연산 1000 -> '00'10
+//			// 이 오른쪽 비트연산은 빈자리를 '부호비트' 0또는 1로 채운다
+//			System.out.println("8의 이진수: "+Integer.toBinaryString(8));
+//			System.out.println("2의 이진수: "+Integer.toBinaryString(2));
+//			
+//			System.out.println(-8>>>3);
+//			// 이 오른쪽 비트연산은 빈자리를 무조건 0으로 채운다
+//			System.out.println("-8의 이진수: "+Integer.toBinaryString(-8));
+//			System.out.println("-8>>>3: "+Integer.toBinaryString(-8>>>3));
+
+// 			int score = 80;// 조건식   ?   값1  :   값2
+//			String pass = score >= 90 ? "합격" : "불합격"; // 삼항 연산자
+//			            //  이 윗내용이 참이면 "합격"을 pass에 대입 , 아니면 "불합격"을 대입
+//			System.out.println(pass);
 	}
 
 }
