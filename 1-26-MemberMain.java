@@ -37,19 +37,25 @@ public class MemberMain {
 //		m2.Name = "테스트";
 //		m2.Level = 3;
 		
-		System.out.println("----------------------------------");
+//		System.out.println("-------------------------------");
+//		
+//		System.out.println("회원의 아이디는: "+m3.ID); // m3가 참조하는 클래스 - Member에서 생성자로 전달된
+//												   // 매개변수 ID를 참조해 접근
+//		System.out.println("회원의 이메일은: "+m3.Email);
+//		System.out.println("회원의 이름은: "+m3.Name);
+//		System.out.println("회원의 레벨은: "+m3.Level);
+//		
+//		System.out.println("-------------------------------");
+//		
+//		System.out.println("회원의 아이디는: "+m2.ID);
+//		System.out.println("회원의 이메일은: "+m2.Email);
+//		System.out.println("회원의 이름은: "+m2.Name);
+//		System.out.println("회원의 레벨은: "+m2.Level);
 		
-		System.out.println("회원의 아이디는: "+m3.ID);
-		System.out.println("회원의 이메일은: "+m3.Email);
-		System.out.println("회원의 이름은: "+m3.Name);
-		System.out.println("회원의 레벨은: "+m3.Level);
-		
-		System.out.println("----------------------------------");
-		
-		System.out.println("회원의 아이디는: "+m2.ID);
-		System.out.println("회원의 이메일은: "+m2.Email);
-		System.out.println("회원의 이름은: "+m2.Name);
-		System.out.println("회원의 레벨은: "+m2.Level);
+		// 객체에 접근할때는 참조변수 'm','m2'를 사용하고 '.'을 붙여 객체 내부의 메소드를 사용하기 위해 작성
+		m.PrintMemberInfo(); // m과 m3는 같은 출력
+		m2.PrintMemberInfo();
+		m3.PrintMemberInfo(); // 이와같이 메소드는 하나의 기능을 수행하게 됨
 	}
 
 }
