@@ -39,7 +39,8 @@ public class MemberMain {
 		
 		System.out.println("----------------------------------");
 		
-		System.out.println("회원의 아이디는: "+m3.ID);
+		System.out.println("회원의 아이디는: "+m3.ID); // m3가 참조하는 클래스 - Member에서 생성자로 전달된
+												   // 매개변수 ID를 참조해 접근
 		System.out.println("회원의 이메일은: "+m3.Email);
 		System.out.println("회원의 이름은: "+m3.Name);
 		System.out.println("회원의 레벨은: "+m3.Level);

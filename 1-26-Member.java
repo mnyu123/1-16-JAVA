@@ -16,7 +16,7 @@ public class Member {
 		System.out.println("-----Member 첫번째 생성자 실행-----");
 		this.Level = Level; // "this"는 내 객체 내 에서 접근할때 사용
 		this.ID = ID; // "this 생성자" 라고 한다.
-		this.Name = Name;
+		this.Name = Name; // 객체가 존재하는 동안 인스턴스 변수를 대입해 백업
 		this.Email = Email; // 이 매개변수들은 '지역변수' 
 	}
 	// 메소드 오버로딩 - 이름이 같은 메소드가 여러개(하지만 매개변수 순서,자료형,개수 등이 달라야한다.)
