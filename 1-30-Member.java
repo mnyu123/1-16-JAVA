@@ -29,5 +29,15 @@ public class Member {
 		System.out.println("-----Member 두번째 생성자 실행-----");
 	}
 	
+	// 메소드 생성
+	
+	void PrintMemberInfo() { // Member 정보 출력
+		System.out.println("-------------------------------");
+		
+		System.out.println("메소드에서 출력한 회원의 아이디는: "+this.ID); 
+		System.out.println("메소드에서 출력한 회원의 이메일은: "+this.Email);
+		System.out.println("메소드에서 출력한 회원의 이름은: "+this.Name);
+		System.out.println("메소드에서 출력한 회원의 레벨은: "+this.Level);
+	}
 
 }
