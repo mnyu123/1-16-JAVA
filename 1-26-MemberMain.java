@@ -52,10 +52,13 @@ public class MemberMain {
 //		System.out.println("회원의 이름은: "+m2.Name);
 //		System.out.println("회원의 레벨은: "+m2.Level);
 		
+
 		// 객체에 접근할때는 참조변수 'm','m2'를 사용하고 '.'을 붙여 객체 내부의 메소드를 사용하기 위해 작성
 		m.PrintMemberInfo(); // m과 m3는 같은 출력
 		m2.PrintMemberInfo();
 		m3.PrintMemberInfo(); // 이와같이 메소드는 하나의 기능을 수행하게 됨
+
+
 	}
 
 }
