@@ -8,6 +8,7 @@ public class SingleTon {
 	private SingleTon() {
 		// TODO Auto-generated constructor stub
 		System.out.println("객체 생성");
+		
 	}
 
 	public static SingleTon getInstance() {
@@ -16,4 +17,3 @@ public class SingleTon {
 	}
 
 }
-
