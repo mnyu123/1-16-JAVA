@@ -2,7 +2,7 @@ package 2-8-FirstTime;
 
 package Test1;
 
-class CAR {
+abstract class CAR {
 	private String color; // 색상
 	private int Max_Speed; // 최고속도
 	private int seat; // 좌석 수
@@ -127,7 +127,7 @@ class CAR {
 		System.out.println("현재 seat(좌석 수): " + seat);
 		System.out.println("현재 fuel(연료): " + fuel);
 		System.out.println("현재 hcount(탑승자 수): " + hcount);
-
+		System.out.println("--------자동차의 정보를 출력완료-------------------");
 		// 예외 처리 실습
 		try {
 			for (int i = 0; i < human_seat.length; i++) {
@@ -161,6 +161,12 @@ class CAR {
 	}
 
 	// 메소드 오버로딩 - 메소드의 이름은 같은데 매개변수의 순서나 타입이 다른거
+
+	// 추상 메소드
+	abstract public void go();
+
+	abstract public void back();
+	// 추상 클래스 = 추상메소드를 한개 이상 갖고있는 클래스
 
 }
 

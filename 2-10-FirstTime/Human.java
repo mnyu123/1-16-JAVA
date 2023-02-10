@@ -7,11 +7,11 @@ public class Human {
 	String name; // 앞에 접근제한자가 없으면 default
 	private int money;
 	int license;
-//-------------------------------------------------------------------
+//------------------------------------------------------------------
 
-	public static int LICENSE_Type_1 = 1; // 1종 보통
-	public static int LICENSE_Type_2 = 2; // 2종 오토
-	public static int LICENSE_Type_3 = 3; // 무면허
+	public final static int LICENSE_Type_1 = 1; // 1종 보통
+	public final static int LICENSE_Type_2 = 2; // 2종 오토
+	public final static int LICENSE_Type_3 = 3; // 무면허
 	// 만약 사용자 입력을 받는다면 해당 글자를 입력중에
 	// 띄어쓰기 , 오타 등 문제가 생기는것을 방지하기 위해 static 상수를 사용함
 
@@ -70,4 +70,5 @@ public class Human {
 //	}
 
 }
+
 
