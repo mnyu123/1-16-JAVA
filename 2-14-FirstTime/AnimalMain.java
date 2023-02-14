@@ -14,7 +14,11 @@ public class AnimalMain {
 		// 강제 형 변환
 		Eagle eaObj = (Eagle) eagle;
 
-		eaObj.eat(); // eat메소드 사용가능함
+		eaObj.eat(); // eat메소드 사4용가능함
+
+		System.out.println("eagle이 Animal의 하위 객체인가: " + (eagle instanceof Animal));
+		System.out.println(eagle instanceof Eagle);
+		System.out.println(eagle instanceof Object);
 	}
 
 }
