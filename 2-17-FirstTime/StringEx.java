@@ -23,5 +23,22 @@ public class StringEx {
 
 		System.out.println(str.substring(6, 13));
 		// 6번지 부터 13번지까지 내용을 잘라냄
+
+		System.out.println(str.toLowerCase());
+		// 원본 출력 , 하지만 소문자로
+
+		System.out.println(str.toUpperCase());
+		// 원본 출력 , 하지만 대문자로
+
+		System.out.println(str.replace("hong", "JOE"));
+		// hong문자열을 'JOE'로 변환하라
+
+		String[] arr = str.split(" ");
+		for (int i = 0; i < arr.length; i++) {
+			System.out.println(arr[i]);
+			// 배열의 번지대로 하나씩 '쪼개서' 출력하게 된다.
+		}
+//		System.out.println(str.split(str));
+		// regex=정규 표현식 , spilt식은 배열 형태로 사용해야함
 	}
 }
